@@ -1,0 +1,63 @@
+.home{background-color: pink;
+    height: 100vh;
+    background-image: url(bg2.jpg)
+    ;
+    background-size: 100% 100%;
+    text-align: center;
+    
+
+    }
+    *{margin: 0%;
+    padding: 0%;}
+
+.home img{
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+    .home h1{
+        font-size: 40px;
+        color: white;
+    font-family: ;
+    }
+.home p{
+    font-family:'Dancing Script', cursive ;
+    color: white;
+    font-size: 40px;
+
+}
+.home button{
+    border: none;
+padding: 10px 20px ;
+
+}
+.b{
+    background-color: d2b48c;
+}
+ body{
+     background-image: bgs.jpg;
+ }
+
+/* about bage  */
+.about{
+
+height: 400px;
+background-image: url(bgs.jpg) ;
+background-attachment: fixed;
+}
+
+/* end */
+.end{
+    width: 21%;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size:18 ;
+    font-family:  ;
+}
+.end img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+}

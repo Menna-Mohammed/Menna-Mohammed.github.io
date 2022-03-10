@@ -1,0 +1,195 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav-bar */
+
+
+.navbar-dark{
+    color: white;
+}
+.icon-nav a{
+    color: #fff;
+}
+.navbar-dark{
+    color: white;
+}
+.icon-nav a{
+    color: #fff;
+}
+/* home  */
+
+.h1 {
+    font-weight: bold;
+    color: #fff;
+  }
+
+.p{
+font-size: 100px;
+}
+
+.home-cap{
+margin: auto;
+text-align: center;
+position: absolute;
+top: 30%;
+left: 30%;
+text-align: center;
+color: #fff;
+
+}
+
+.home-slider{
+position: relative;
+}
+.mine-icons{
+    color: #dc3545;
+  }
+/* #home .scroll{
+    width: 25px;
+    height: 45px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: white solid 2px;
+    border-radius: 15px;
+    margin: auto
+animation:scroll 3s infinite linear;
+} */
+
+
+
+ /* #home .scroll::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 10px;
+    background-color: #fff; */
+   
+}
+
+
+  /* services */
+
+  #services{
+      padding-top: 30px;
+  }
+
+  /* question part */
+
+  .q-part{
+      margin: 150px 0px;
+  }
+
+
+.ul span{
+    font-weight: bold;
+}
+
+
+/* Services */
+
+.card-img img{
+    border-radius: 2%;
+    height: 350px;
+}
+.card{
+    display: inline-block;
+}
+.part{
+  margin: 20px 5;  
+}
+
+/* end  */
+
+.end{
+    background-color: #222;
+    margin-top: 40px;
+    padding: 50px 0;
+}
+.end .item h3{
+color: #fff;
+margin-bottom: 20px 5px;
+}
+.end .item  a{
+    color: #b0b0b0;
+}
+
+.end .item p{
+    color: #b0b0b0;
+}
+
+ul{ 
+    list-style-type :none ;
+    text-align: start;
+}
+.end .item li {
+    padding: 5px 0;
+}
+ .hvr:hover{
+    color: #dc3545 !important ;
+    list-style: none;
+
+} 
+
+.title p{
+    color:#6c757d;
+    
+}
+.hvr-btn:hover{
+    color: #dc3545 !important ;
+    background-color: transparent;
+    border-color: #dc3545;
+} 
+.list a{
+
+    text-decoration: none;
+
+}
+
+
+/* footer */
+
+.footer{
+ background-color: #333;
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+     
+}
+
+.Services{
+    overflow: hidden;
+}
+
+.icon-footer{
+
+    color: #dc3545;
+    text-align: center;
+}
+
+.icon-pink{
+color: #dc3545;
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 2rem;
+text-align: center;
+padding: 15px 0;
+}
+
+#footer{
+    background-color: #1a1a1a;
+}
+
+#footer p{
+    color: #b0b0b0;
+}

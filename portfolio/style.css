@@ -1,0 +1,170 @@
+
+.navbar-dark{
+    color: white;
+}
+.bg-w{
+    background-color: rgba(00, 00, 00, 0.3);
+}
+#home{
+background-image: url(slider-01.jpg);
+background-size: 100% ;
+}
+
+.h1{
+    font-size: 5rem;
+    color: #dc3545 !important;
+}
+
+.p{
+    font-size: 3rem !important;
+}
+
+.home-cap{
+   
+    height: 100vh;
+}
+
+.home2{
+    background-color:  rgba(00, 00, 00, 0.8) ;
+}
+
+/* second section */
+
+
+.about{
+   
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 ;
+}
+.clr{
+    clear: both;
+}
+.about-img{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.parent{
+    position: relative;
+    transform: translate(20px,20px);
+    overflow: hidden;
+}
+
+.disc{
+    width: 50%;
+    float: left;
+   
+}
+.brdr{
+   border: solid 8px rgb(82, 79, 79) ;
+   width: 70%;
+   position: relative;
+   border-radius: 2%;
+
+}
+.lyr{
+width: 100%;
+height: 100%;
+background-color:rgba(00, 00, 00, 0.5) ;
+position: absolute;
+top: 100% ;
+left: 0px;
+transition: all  1s;
+border-radius: 2%;
+}
+
+.brdr img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.brdr:hover .lyr{
+    top: 0%;
+}
+ .
+.ul{
+    text-decoration: none;
+}
+
+.cap{
+    border-bottom: dashed;
+    padding-bottom: 10px;
+}
+
+.ul span{
+    font-weight: bold;
+}
+.card{
+    display: inline-block;
+}
+
+.line-s{
+    width: 20px;
+    height: 20px;
+    color: #a39395;
+}
+
+.text-black{
+ color: black !important;
+}
+
+.bg-black{
+background-color: black;
+}
+
+.count{
+    display: inline-block;
+padding: 50px;
+text-align: center;
+margin: auto;
+}
+
+.Our-Portfolio img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+ background-color: #333;
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+     
+}
+
+.Services{
+    overflow: hidden;
+}
+
+.icon-footer{
+
+    color: #dc3545;
+    text-align: center;
+}
+
+.icon-pink{
+color: #dc3545;
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 2rem;
+text-align: center;
+padding: 15px 0;
+}
+
+
+}
+.nav-pills .nav-link .active{
+    color: #dc3545;
+    background-color: transparent !important;
+}
+.nav-pills .nav-link{
+    color: black;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:black;
+    background-color:transparent;
+}

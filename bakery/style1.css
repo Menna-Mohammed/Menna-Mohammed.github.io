@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+     margin: 0;
+    padding: 0;
+   font-family: "Alegreya sans" ;
+}
+  .body {
+ 
+background-color: #fff;
+  }
+
+  /* navbar  */
+  .nav-bar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-transform: uppercase;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+  }
+  .continer{
+        margin: auto;
+        width: 90%; 
+        overflow: hidden;
+      /* font-family: 'Alegreya sans'; */
+  }
+  .nav-bar img{
+    width: 200px;
+    float: left; 
+  }
+  .nav-bar li{
+        padding: 20px;
+      float: right;
+      list-style-type: none;
+     }
+  .nav-bar a{
+      text-decoration: none;
+      color: white;
+  }
+
+  /* .home */
+  .home{
+     background-size: 100% 100%;
+      height : 100vh;
+      padding-top: 200px;
+      color: white;
+       background-image:url( bg1.jpg);
+  }
+  .home h1{
+      font-size: 76px;
+      margin: 20px 0px;
+  }
+  .home p{
+      font-size: 22px;
+  }
+  .home-caption{
+      margin: auto;
+      width: 50%;
+      text-align: center;
+  }
+  .home button{
+      padding: 15 28;
+      color: white ;
+      font-size: 16;
+  }
+  .btn1{
+  background-color: #8e7754 ;
+  border: none;
+  }
+  .btn2{
+  background-color : transparent ;
+  border : 1px solid white ;
+  }
+   
+  .btn1:hover{
+      background-color: #fff;
+      color: #8e7754;
+  }
+.btn2:hover{
+    background-color: #fff;
+    color: #8e7754;
+}
+
+/* who we are section  */
+
+.who-we-are{
+    overflow: hidden;
+margin: 100px;
+}
+.who-cap{
+width: 50%;
+float: left;
+padding-top: 200px;
+margin: 50px;
+}
+
+
+.who-img{
+width: 50%;
+float: left;
+margin-left: 50px;
+}
+
+.who-we-are img{
+    width: 100%;
+    padding-right: 50px;
+    /* margin-right: 20px; */
+}
+
+
+.who-we-are h2{
+    padding-top:25px;
+    color: #303030;
+    margin-top: 50px;
+} 
+
+
+.who-we-are p{
+ color: #686868 ;
+ margin-left: 50px;
+ padding: 20px;
+
+}
+ .who-we-are li {
+     padding: 10px;
+ }
+
+ .who-we-are  ul {
+       margin-top: 25px;
+       list-style-type: none;
+       color: #686868;
+ }
+
+     /* our-location */
+
+.Our-Location{
+    background-color:#f8f8f8 ;
+    overflow: hidden;
+    display: inline-block;
+    }
+    
+    .Our-Location .Our-Location-cap{
+    width: 50%;
+    float: left;
+    padding-top: 200px;
+    }
+    
+    .Our-Location .Our-Location-img {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    
+    }
+    
+    .Our-Location .Our-Location-img img {
+        width: 100%;
+    }
+    
+    
+    .Our-Location .Our-Location-cap p {
+        margin: 20px;
+        color: #686868;
+        margin-right: 50px;
+    }
+    
+    .Our-Location .Our-Location-cap h2 {
+        margin: 20px;
+        color: #303030;
+      
+    }
+    
+
+/* our baking */
+.our-baking{
+    background-color: #fff;
+}
+.our-baking-cap{
+text-align: center;
+margin: 70px;
+
+}
+.our-baking h2{
+    color: #303030;
+}
+.our-baking p{
+color: #686868
+}
+ .our-baking p {
+     margin: 20px;
+ }
+.our-baking h2 {
+    margin: 20px;
+}
+
+.one{
+    width: 33.3333%;
+    text-align: center;
+    float: left; 
+    padding: 10px;
+overflow: hidden;
+margin-top: 20px;
+background-color: #fff;
+}
+
+.one img{
+    width: 100%;
+  
+
+}
+
+.one h2 {
+    color: #303030;
+}
+.one p{
+   color: #686868;
+   padding: 10px;
+}
+
+
+
+/* info section  */
+
+.info-map{
+overflow: hidden;
+
+}
+
+.map-cap{
+width: 50%;
+float: left;
+}
+
+.map{
+width: 50%;
+float: right;
+}
+
+
+.map img{
+    width: 100%;
+    margin: 50px;
+
+}
+
+.map-cap h2{
+margin: 100px 0 100px 30px ;
+color:  #303030;
+
+}
+.map-cap p{
+    margin: 30px;
+    color:#686868;
+}
+ .map-cap ul{
+margin: 20px;
+color: #686868;
+ }
+
+.map-cap li{
+    margin: 15px;
+}
+
+/* last-section */
+.last{
+    margin-top: 100px;
+    background-color: #403d38;
+}
+.last-section{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    padding-top: 100px;
+
+}
+
+.last-section h2{
+margin: top 100px ;
+margin-left: 15%;
+color: #fff;
+}
+
+
+.last-section p{
+    margin: 50px;
+    color: #969696;
+}
+
+.last-section ul{
+margin: 50px;
+text-decoration:  underline ;
+text-decoration-style: none;
+
+
+}
+
+.last-section span{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    /* text-decoration: underline; */
+    padding-bottom: 10px;
+    color: #969699;
+}
+
+.over{
+    background-color: #353330;
+    padding: 50px 150px;
+    text-align: center;
+
+}
+ .par p {
+     padding-top: 30px;
+     font-size: 15px;
+     color: #777777;
+
+ }
+.logo{
+    background-color: #353330;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
